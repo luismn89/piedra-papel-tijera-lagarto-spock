@@ -1,0 +1,83 @@
+body {
+	background-color: #80FF80;
+	font-size: 16px;
+	margin: 0;
+	overflow-x: hidden;
+	padding: 0;
+}
+
+h1{
+	text-align: center
+}
+
+h2, h3, h4{
+	margin-left: 5%;
+}
+
+.bloque {
+	background-color: #00FF00;
+	border-radius: 3em;
+	box-shadow: 0.3em 0.5em 1em black;
+}
+
+.bloque-2 {
+	margin: 4% 18%;
+}
+
+.bloque-size{
+	display: inline-block;
+	height: 35em;
+	margin: 1.5% 18%;
+	vertical-align: middle;
+	width: 60%
+}
+
+.bloque-size > div{
+	height: 40%;
+	padding: 1% 5%;
+}
+
+.ficha{
+	background-color: #4242FF;
+	border: 0.2em solid black;
+	border-radius: 6em;
+	padding: 0.2em;
+}
+
+.ficha-opcion{
+	height: 11em;
+	margin: 4% 4%;
+	width: 11em;
+}
+
+.ficha-resultado{
+	height: 10em;
+	margin: 1% 40%;
+	width: 10em
+}
+
+.ficha-opcion:hover{
+	background-color: #80FFFF;
+}
+
+.resultado{
+	display: none;
+	height: 9em;
+	margin: 0.2% auto;
+	padding: 0.5%;
+	width: 47%;
+}
+
+.resultado h2{
+	text-align: center;
+}
+
+.resultado button{
+	border-radius: 1em;
+	margin-left: 43%;
+	padding: 1%;
+}
+
+.seleccion {
+	display: none;
+}
