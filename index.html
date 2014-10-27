@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Piedra, Papel, Tijera, Lagarto o Spock</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<script src="js/scripts.js"></script>
+</head>
+<body>
+	<h1>Juego de piedra, papel, tijera, lagarto o spock.</h1>
+	<h4>Pulsa la opcion que deseas jugar:</h4>
+	<section id="opciones" class="bloque bloque-size">
+		<div class="bloque-1">
+			<a id="btn-piedra" href="#" data-opcion="piedra"><img src="img/piedra.png" class="ficha ficha-opcion"></a>
+			<a id="btn-papel" href="#" data-opcion="papel"><img src="img/Papel.png" class="ficha ficha-opcion"></a>
+			<a id="btn-tijera" href="#" data-opcion="tijera"><img src="img/tijera.png" class="ficha ficha-opcion"></a>
+		</div>
+		<div class="bloque-2">
+			<a id="btn-lagarto" href="#" data-opcion="lagarto"><img src="img/Lagarto.png" class="ficha ficha-opcion"></a>
+			<a id="btn-spock" href="#" data-opcion="spock"><img src="img/spock.png" class="ficha ficha-opcion"></a>
+		</div>
+	</section>
+	<section id="seleccion" class="bloque bloque-size seleccion">
+		<div>
+			<h3>Ficha jugada por ti:</h3>
+			<div id="ficha-jugador"><!--Bloque donde se introducira desde js el codigo de la ficha jugada por el usuario--></div>
+		</div>
+		<div>
+			<h3>Ficha jugada por PC:</h3>
+			<div id="ficha-pc"><!--Bloque donde se introducira desde js el codigo de la ficha jugada por la pc--></div>
+		</div>
+	</section>
+	<section id="resultado" class="bloque resultado">
+		<h3>Resultado de Partida:</h3>
+		<div id="resultado-juego"><!--Bloque donde se introducira desde js el codigo del resultado del juego--></div>
+		<button id="btn-reinicio">Volver a Jugar</button>
+	</section>
+	<script>
+		// Llamada para inicio de funciones js
+		inicio();
+	</script>
+</body>
+</html>
